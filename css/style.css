@@ -1,0 +1,9 @@
+button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+button:hover{
+    transform: scale(110%);
+}
