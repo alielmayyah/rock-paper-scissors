@@ -21,26 +21,40 @@
       >
         <div class="col">
           <h1 class="text-secondary mb-5">Rock Paper Scissors</h1>
-          <button class="rock">
-            <img class="rock-image" src="assets/rock-emoji.png" alt="Rock" />
+          <button class="col-md-3 rock">
+            <img
+              class="img-fluid rock-image"
+              src="assets/rock-emoji.png"
+              alt="Rock"
+            />
           </button>
-          <button class="paper">
-            <img class="paper-image" src="assets/paper-emoji.png" alt="Paper" />
+          <button class="col-md-3 paper">
+            <img
+              class="img-fluid paper-image"
+              src="assets/paper-emoji.png"
+              alt="Paper"
+            />
           </button>
-          <button class="scissors">
-            <img class="scissors-image" src="assets/scissors-emoji.png" alt="Scissors" />
+          <button class="col-md-3 scissors">
+            <img
+              class="img-fluid scissors-image"
+              src="assets/scissors-emoji.png"
+              alt="Scissors"
+            />
           </button>
           <h1 class="text-primary js-result my-5"></h1>
           <div class="col d-flex">
-            <h2 class="col-6 text-secondary my-state align-content-center"></h2>
-            <h2 class="col-6 text-secondary pc-state"></h2>
+            <h2 class="col-6 text-secondary my-state col-md-6"></h2>
+            <h2 class="col-6 text-secondary pc-state col-md-6"></h2>
           </div>
-          <div class="col d-flex justify-content-center">
+          <div class="col d-flex justify-content-center mt-4">
             <h2 class="text-primary wins">Wins: 0</h2>
             <h2 class="text-primary losses mx-4">Losses: 0</h2>
             <h2 class="text-primary ties">Ties: 0</h2>
           </div>
-          <button class="fs-5 btn btn-primary mt-4 reset">Reset Counters</button>
+          <button class="fs-5 btn btn-primary mt-4 reset">
+            Reset Counters
+          </button>
         </div>
       </div>
     </div>
